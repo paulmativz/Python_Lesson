@@ -1,0 +1,163 @@
+2. Print
+
+string
+numbers
+boolean - true or false no need quotes
+variable
+
+Print ng string
+
+Haler
+
+When we print out a string
+enclose in 
+double quotes " <string> "
+single quotes ' <string> '
+
+print ("Haler World")
+print ('Haler World')
+
+if numbers 
+print (100)
+
+no need single or double quotest
+
+Print Multi-Line
+
+\n = next line
+
+Option 1 print = \n per line
+print ("Shoes on, get up int hte morn'\n Cup of milk, let's rock and roll\n King Kong, kick the drum, rolling on\n like a Rolling stone\n Sing a song when I'm walking home\n Jump up to the top, Lebron\n Ding dong, call me on my phone\n Ice tea and a game of ping pong")
+
+Option 2 print = using triple double quote """ or triple single quote '''
+print ("""
+line1
+line2
+line3
+line4
+""")
+
+Option 1
+Using Escape Characters in Printing Multi-line strings = \ it will treat like not special character
+print ("Nagkita kami ng bff ko kahapon, sabi ko sa kanya, \n \"kamusta kana? Isa't kalahating taon din tayo hindi \n nagkita ah!\"")
+
+Option 2
+
+print ("""
+Nagkita kami ng bff ko kahapon, sabi ko sa kanya, 
+"kamusta kana? Isa't kalahating taon din tayo hindi 
+nagkita ah!"
+""")
+
+print ("""
+“Hard evidence isn’t hard evidence if you don’t break
+your back digging for it. An editor named Dom Grelsch
+told me that.”
+
+Grelsch glares at her.
+
+“I got a lead, Dom.”
+
+“You got a lead.”
+
+I can’t batter you, I can’t fool you. I can only hook
+your curiosity. “I phoned the precinct where Sixsmith’s
+case was processed.”
+
+You can see how the inner dialogue works seamlessly
+with the outer dialogue to give you more insight into
+the character, Luisa Rey.
+""")
+
+3. Adding comment
+#comment1
+#comment2
+#comment3
+
+4. Pythin IDEs - Integrated Development Environment
+*Eclipse
+* sublime text
+* visual studio
+* pydev
+* pycharm
+
+https://www.jetbrains.com/pycharm/
+
+5. Variables
+Like a container - nilalagyan ng value
+When creating variable names in python, meron tayong mga variable name rules na kailangan sundin:
+Ang isang variable name ay pwede lang mag-umpisa sa isang letter or underscore
+Hindi pwedeng mag-umpisa ang variable name mo sa isang number
+Pwedeng maglagay ng number and any characters after the first letter.
+Variable names are case-sensitive
+
+Variable can only hold 1 value
+
+6. Data Types: Number
+ 3 numeric data types
+ Integer or int - whole number 1,3,8,1000
+ Floating point - floats - with decimal point ex. 1.45,3.1, 8.61115
+ Complex numbers - whole # na may imaginary number, ex a+bi, use for scientific
+ 
+7. Numeric Operators
+ Addition operator = +
+   x = 24
+   y = 8
+   sum1 = x + y
+   sum2 = 24 + 8
+   print(sum1)
+   print(sum2)
+   print(x + y)
+   print(8 + 24)
+   
+ Subtraction Operator = -
+    x = 24
+    y = 8
+    diff1 = x - y
+    diff2 = 24 - 8
+    print(diff1)
+    print(diff2)
+    print(x - y)
+    print(24 - 8)
+	
+ Multiplication Operator = *
+   x = 24
+   y = 8
+   prod1 = x * y
+   prod2 = 24 * 8
+   print(prod1)
+   print(prod2)
+   print(x * y)
+   print(24 * 8) 
+   
+ Division Operator = /
+ With floating (butal)
+ x = 26
+ y = 4
+ div1 = x / y
+ div2 = 26 / 4
+ print(div1)
+ print(div2)
+ print(x / y)
+ print(26 / 4)
+ 
+ Without floating (whole number, walang butal) double //
+ x = 26
+ y = 4
+ intdiv1 = x // y
+ intdiv2 = 26 // 4
+ print(intdiv1)
+ print(intdiv2)
+ print(x // y)
+ print(26 // 4)
+ 
+ Modulo remainder
+ x = 26
+ y = 4
+ mod1 = x % y
+ mod2 = 26 % 4
+ print(mod1)
+ print(mod2)
+ print(x % y)
+ print(26 % 4)
+
